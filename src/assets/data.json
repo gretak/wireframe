@@ -1,0 +1,85 @@
+
+ {   
+     "cards": [
+        { 
+            "id":1, 
+            "image":"https://via.placeholder.com/250x300.jpg?text=Card+1",   
+            "name":"product name"
+        },
+        { 
+            "id":2, 
+            "image":"https://via.placeholder.com/250x300.jpg?text=Card+2",   
+            "name":"product name"
+        },
+        { 
+            "id":3, 
+            "image":"https://via.placeholder.com/250x300.jpg?text=Card+3",   
+            "name":"product name"
+        },
+        { 
+            "id":4, 
+            "image":"https://via.placeholder.com/250x300.jpg?text=Card+4",   
+            "name":"product name"
+        },
+        { 
+            "id":5, 
+            "image":"https://via.placeholder.com/250x300.jpg?text=Card+5",   
+            "name":"product name"
+        },
+        { 
+            "id":6, 
+            "image":"https://via.placeholder.com/250x300.jpg?text=Card+6",   
+            "name":"product name"
+        },
+        { 
+            "id":7, 
+            "image":"https://via.placeholder.com/250x300.jpg?text=Card+7",   
+            "name":"product name"
+        },
+        { 
+            "id":8, 
+            "image":"https://via.placeholder.com/250x300.jpg?text=Card+8",   
+            "name":"product name"
+        } 
+
+    ],
+    "faqs": [
+        {
+            "title": "Lorem ipsum dolor sit amet?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "title": "A iaculis at erat pellentesque?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "title": "Elit duis commodo nulla facilisi?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "title": "Eget velit ut faucibus pulvinar?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "title": "Eu nisl nunc mi ipsum faucibus?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "title": "Facilisis cras semper auctor?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "title": "Ornare massa egestas viverra?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "title": "Vestibulum ullamcorper dignissim?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "title": "Platea amet volutpat consequat?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    ] 
+}
+ 

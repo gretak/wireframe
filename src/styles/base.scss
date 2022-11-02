@@ -1,0 +1,100 @@
+body {
+  font-family: Sans-Serif, Arial;
+  margin: 0;
+  padding: 0;
+  font-size: $html-font-size;
+  line-height: 1.2;
+  display: block;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: rem(22);
+  margin: rem(20) 0;
+
+  @media screen and (min-width: $screen-tablet) {
+    font-size: rem(24);
+  }
+}
+
+h2 {
+  font-size: rem(20);
+  margin: rem(16) 0;
+  text-align: center;
+  font-weight: 400;
+
+  @media screen and (min-width: $screen-tablet) {
+    font-size: rem(22);
+  }
+}
+
+p {
+  margin: rem(16) 0;
+  font-size: rem(16);
+}
+
+a {
+  font-size: rem(16);
+  text-decoration: none;
+
+  @media screen and (min-width: $screen-tablet) {
+    font-size: rem(18);
+  }
+}
+
+.grid-container {
+  display: grid;
+  justify-content: stretch;
+  gap: 15px;
+  max-width: $container-max;
+  margin: 50px auto;
+
+  &#cards {
+    justify-content: center;
+    margin-top: 80px;
+
+    @media screen and (min-width: $screen-mobile) {
+      grid-template-columns: auto auto;
+      justify-content: space-around;
+    }
+
+    @media screen and (min-width: $screen-tablet) {
+      grid-template-columns: auto auto auto;
+    }
+
+    @media screen and (min-width: $screen-desktop) {
+      grid-template-columns: auto auto auto auto;
+      justify-content: space-between;
+    }
+  }
+}
+
+footer {
+  background-color: $light-grey;
+
+  a {
+    display: block;
+    color: $medium-grey;
+    text-align: center;
+    padding: rem(22) rem(16);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

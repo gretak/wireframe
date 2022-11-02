@@ -1,0 +1,18 @@
+//variables
+$html-font-size: 16px;
+$container-max: 1200px;
+$light-grey: #eee;
+$medium-grey: #666;
+$dark-grey: #333;
+$black: #000;
+
+//breakpoints
+$screen-mobile: 478px;
+$screen-mobile-max: 768px;
+$screen-tablet: 769px;
+$screen-desktop: 991px;
+
+//calculate px to rems
+@function rem($size, $context: 16) {
+    @return calc($size / $context) + rem;
+  }

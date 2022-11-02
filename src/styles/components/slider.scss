@@ -1,0 +1,32 @@
+.slideshow {
+  position: relative;
+
+  &__item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+  }
+}
+
+.dot {
+  margin-top: -50px;
+  text-align: center;
+
+  &__item {
+    cursor: pointer;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    background-color: $light-grey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+
+    &.active,
+    &:hover {
+      background-color: $medium-grey;
+    }
+  }
+}
