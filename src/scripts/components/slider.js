@@ -2,8 +2,8 @@ let slideIndex = 0;
 
 export const showSlides = () => {
     let i;
-    let slides = document.getElementsByClassName('slideshow__item');
-    let dots = document.getElementsByClassName('dot__item');
+    const slides = document.getElementsByClassName('slideshow__item');
+    const dots = document.getElementsByClassName('dot__item');
 
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = 'none';

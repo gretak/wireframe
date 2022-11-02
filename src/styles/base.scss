@@ -48,7 +48,7 @@ a {
   justify-content: stretch;
   gap: 15px;
   max-width: $container-max;
-  margin: 50px auto;
+  margin: rem(50) auto;
 
   &#cards {
     justify-content: center;

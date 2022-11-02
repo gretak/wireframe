@@ -6,19 +6,19 @@
   border: none;
   text-align: left;
   outline: none;
-  font-size: 16px;
+  font-size: rem(16);
   transition: 0.4s;
   border-bottom: 1px solid $black;
   margin: 0 auto;
 
   @media (min-width: $screen-desktop) {
-    font-size: 18px;
+    font-size: rem(18);
     width: 100%;
   }
 
   &:after {
     content: '\02795';
-    font-size: 16px;
+    font-size: rem(16);
     float: right;
     margin: 0 5px;
   }
@@ -39,6 +39,6 @@
   display: none;
 
   @media (min-width: $screen-desktop) {
-    padding: 0 10px;
+    padding: 0 rem(10);
   }
 }

@@ -15,4 +15,4 @@ $screen-desktop: 991px;
 //calculate px to rems
 @function rem($size, $context: 16) {
     @return calc($size / $context) + rem;
-  }
+}
