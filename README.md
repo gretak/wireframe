@@ -1,13 +1,23 @@
-```
-npm run i
-```
+# Wireframe task
+
+## repository:
+
+[https://github.com/gretak/wireframe](https://github.com/gretak/wireframe)
+
+### To run project localy run the commands below:
 
 ```
-npm run build
+npm run i
 ```
 
 ```
 npm run serve
 ```
 
-to bundle your application
+```
+npm run build
+```
+
+## hosted on:
+
+[https://wireframe-task.netlify.app/](https://wireframe-task.netlify.app/)
