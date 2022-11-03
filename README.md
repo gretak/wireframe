@@ -4,7 +4,7 @@
 
 [https://github.com/gretak/wireframe](https://github.com/gretak/wireframe)
 
-### To run project localy run the commands below:
+### To run project locally run the commands below:
 
 ```
 npm run i
@@ -13,6 +13,8 @@ npm run i
 ```
 npm run serve
 ```
+
+## to create dist folder:
 
 ```
 npm run build
