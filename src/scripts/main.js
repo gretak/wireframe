@@ -17,7 +17,7 @@ showCards(3);
 showAccordion(true);
 
 //Reload cards on window resize
-window.onresize = function(){
+window.addEventListener('resize', function(){
     const boxes = document.querySelectorAll('.card');
     const buttons = document.querySelectorAll('.button');
 
@@ -30,6 +30,6 @@ window.onresize = function(){
     });
 
     showCards(3); 
-}
+});
 
 
